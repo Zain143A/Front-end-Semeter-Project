@@ -1,0 +1,19 @@
+a:hover{
+    text-shadow: 0 0 8px orange;
+}
+.heading{
+    margin-left: 4rem;
+}
+.buttonClass{
+    background-color: orange;
+    border: 0;
+}
+
+.buttonClass:hover{
+    background-color: #ff8c00;
+    border-color: orange;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px orange;
+}
+span{
+    color: orange;
+}

@@ -1,0 +1,63 @@
+.bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.1) !important;
+    backdrop-filter: saturate(200%) blur(5px);
+    color: white;
+    margin:0;
+  }
+  .z-ind{
+    z-index: 10
+  }
+  .btn-color{
+    background-color: orange;
+    border: 0;  
+    border-radius: 2rem;
+  }
+
+  .btn-color:hover{
+    background-color: #ff8c00;
+    border-color: orange;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px orange;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]{
+    background-color: hsla(0, 0%, 1%, 0.5) !important;
+    backdrop-filter: saturate(200%) blur(20px);
+    color: white;
+    border: 0;
+    border-radius: 2rem;
+  }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  .icon:hover {
+       
+      border-color: orange;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px orange;
+      outline: 0 none;
+      color: white
+  }
+  label{
+    margin-left: 10px;
+  }
+  .icon{
+    background-color: hsla(0, 0%, 1%, 0.5) !important;
+    backdrop-filter: saturate(200%) blur(20px);
+    color: white;
+    border: 0;
+    border-radius: 2rem;
+    cursor: pointer;
+  }
+  .signup:hover{
+    color: orange;
+    text-shadow: 0 0 8px orange;
+  }
+  .signup{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .signup:visited{
+    color: white;
+  }
